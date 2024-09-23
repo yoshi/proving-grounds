@@ -7,7 +7,6 @@ import (
 )
 
 func main() {
-
 	fmt.Println("starting")
 	http.ListenAndServe(":3000", nil)
 }
